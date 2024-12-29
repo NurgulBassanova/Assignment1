@@ -103,3 +103,10 @@ Shows the MetaMask notification confirming the successful approval of the transa
 
 A view of our MetaMask account, where you can see that tranaction is deployed. 
 
+![Описание изображения](images/outputVS.jpg)
+
+Captures the terminal output in VS Code after executing the deployment script, including transaction details such as the contract address and status.
+![Описание изображения](images/ganache.jpg)
+
+Displays the Ganache interface, showing the details of the contract creation and any calls made to it.
+
