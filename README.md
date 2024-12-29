@@ -71,11 +71,11 @@ node deploy.js
   
 The smart contract used in this project supports the following functions:
 
-**checkBalance()**: Returns the current Ether balance of the contract.
+`checkBalance()`: Returns the current Ether balance of the contract.
 
-**withdraw()**: Transfers all Ether from the contract to the owner's address.
+`withdraw()`: Transfers all Ether from the contract to the owner's address.
 
-**receive()**: Allows the contract to accept Ether directly.
+`receive()`: Allows the contract to accept Ether directly.
 
 2. **Configure Deployment Script**:
    - Update `deploy.js` with the following details:
