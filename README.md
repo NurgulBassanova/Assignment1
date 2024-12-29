@@ -63,40 +63,9 @@ npm install
 node deploy.js
 ```
 
-## Deployment
-1. **Compile the Smart Contract**:
-   - Ensure the smart contract code is in the `contracts/` directory.
-   - Use a Solidity compiler (such as `solc` or the built-in compiler in a framework like Truffle or Hardhat) to compile the contract.
-   - The compilation will generate an ABI and bytecode for deployment.
-  
+### Smart Contract
 The smart contract used in this project supports the following functions:
 
 `checkBalance()`: Returns the current Ether balance of the contract.
-
 `withdraw()`: Transfers all Ether from the contract to the owner's address.
-
 `receive()`: Allows the contract to accept Ether directly.
-
-2. **Configure Deployment Script**:
-   - Update `deploy.js` with the following details:
-     - **Contract Name**: The name of the compiled contract.
-     - **Deployer Account**: The account address used for deploying (from Ganache or MetaMask).
-     - **RPC URL**: Use the RPC URL from your Ganache workspace (e.g., `http://127.0.0.1:7545`).
-
-3. **Run the Deployment Script**:
-   - Execute the script to deploy the contract:
-     ```bash
-     node deploy.js
-     ```
-   - Note the deployed contract address from the output.
-
-4. **Verify Deployment**:
-   - Use MetaMask or Ganache's block explorer to confirm the contract is deployed.
-   - Check the contract address and ensure the transaction is successful.
-
-5. **Interact with the Contract**:
-   - Use `app.js` to call smart contract functions.
-   - Update `app.js` with the deployed contract's address and ABI.
-   - Test functions like `checkBalance`, `withdraw`, and sending Ether to the contract.
-
-
