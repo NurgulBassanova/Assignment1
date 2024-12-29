@@ -83,3 +83,8 @@ The smart contract used in this project supports the following functions:
 
 Highlights the deployment script (deploy.js) with the configuration for connecting to the Ganache blockchain. Also as you can see using Web3, which is declared as `const {Web3}`.
 
+
+![Описание изображения](script/web3.jpg)
+
+A view of the deployment script opened in VS Code, showcasing the JavaScript logic used for deploying the contract.
+
