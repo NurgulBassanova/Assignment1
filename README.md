@@ -95,3 +95,11 @@ The smart contract used in this project supports the following functions:
 
 Displays the MetaMask popup requesting user confirmation for the transaction to deploy the smart contract.
 
+![Описание изображения](images/approve1.jpg)
+
+Shows the MetaMask notification confirming the successful approval of the transaction.
+
+![Описание изображения](images/acc.jpg)
+
+A view of our MetaMask account, where you can see that tranaction is deployed. 
+
