@@ -80,5 +80,6 @@ The smart contract used in this project supports the following functions:
 
 ## Deployment
 ![Описание изображения](images/web3.jpg)
+
 Highlights the deployment script (deploy.js) with the configuration for connecting to the Ganache blockchain. Also as you can see using Web3, which is declared as `const {Web3}`.
 
