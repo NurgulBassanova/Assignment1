@@ -81,11 +81,17 @@ The smart contract used in this project supports the following functions:
 ## Deployment
 ![Описание изображения](images/web3.jpg)
 
-Highlights the deployment script (deploy.js) with the configuration for connecting to the Ganache blockchain. Also as you can see using Web3, which is declared as `const {Web3}`.
+Highlights the deployment script (deploy.js) with the configuration for connecting to the Ganache blockchain. Also, as you can see using Web3, which is declared as `const {Web3}`.
 
 
 ![Описание изображения](images/script.jpg)
 
 
 A view of the deployment script opened in VS Code, showcasing the JavaScript logic used for deploying the contract.
+
+![Описание изображения](images/smart.jpg)
+
+Shows the smart contract code in Remix IDE, where it was written, compiled, and tested for functionality.
+
+
 
