@@ -1,9 +1,9 @@
 # Assignment 1
 
 
-Smart contract deployment
+## Smart contract deployment
 
-Team members: 
+# Team members: 
 - Nurgul Bassanova SE-2323
 - Nurkasym Bolat SE-2325
 - Ulzhan Tamyzgazina SE-2325
