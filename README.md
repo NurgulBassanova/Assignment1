@@ -8,7 +8,7 @@ Smart contract deployment
 1. [Project overview](#project-overview)
 2. [Prerequisites](#prerequisites)
 3. [Setup and installation](#setup-and-installation)
-4. [Steps to deploy](#steps-to-deploy)
+4. [Deployment](#deployment)
 5. [Files](#files)
 6. [License](#license)
 
@@ -63,4 +63,8 @@ npm install
 node deploy.js
 ```
 
-## Steps to deploy
+## Deployment
+
+
+
+
