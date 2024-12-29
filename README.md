@@ -3,6 +3,12 @@
 
 Smart contract deployment
 
+Team members: 
+- Nurgul Bassanova SE-2323
+- Nurkasym Bolat SE-2325
+- Ulzhan Tamyzgazina SE-2325
+
+
 ## Contents
 
 1. [Project overview](#project-overview)
@@ -74,4 +80,5 @@ The smart contract used in this project supports the following functions:
 
 ## Deployment
 ![Описание изображения](images/web3.jpg)
+Highlights the deployment script (deploy.js) with the configuration for connecting to the Ganache blockchain. Also as you can see using Web3, which is declared as `const {Web3}`.
 
