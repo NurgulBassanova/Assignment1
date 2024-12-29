@@ -1,2 +1,4 @@
-# Assignment1
-This repository contains the smart contract deployment assignment
+# Assignment 1
+
+
+Smart contract deployment
