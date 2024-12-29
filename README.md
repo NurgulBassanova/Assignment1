@@ -91,3 +91,7 @@ The smart contract used in this project supports the following functions:
 - `withdraw()`: Transfers all Ether from the contract to the owner's address.
 - `receive()`: Allows the contract to accept Ether directly.
 
+![Описание изображения](images/withdraw.jpg)
+
+Displays the MetaMask popup requesting user confirmation for the transaction to deploy the smart contract.
+
