@@ -110,3 +110,30 @@ Captures the terminal output in VS Code after executing the deployment script, i
 
 Displays the Ganache interface, showing the details of the contract creation and any calls made to it.
 
+## Conclusion
+
+We created a smart contract that can receive Ether, let the owner withdraw Ether, and check the balance of the contract. This shows how smart contracts work on the Ethereum blockchain. We set up the environment by installing the Web3.js library, which helps connect to the Ethereum network. We also configured Ganache and Metamask to work together, making it easier to interact with the blockchain. The smart contract was successfully deployed on Ganache, a local test network, and its functions were tested by calling them from the environment we set up.
+![Описание изображения](images/callandcreation.jpg)
+
+
+## Files
+
+- deploy.js: Javascript script to deploy the smart contact within environment(VS code) with Ganache settings
+- smartcontract.sol: Solidity script to deploy the smart contact with Metamask account
+- README.md: explanatory text file
+- LICENSE: MIT license
+- package.json, package-lock.json, node_modules: libraries to use web3 and node.js
+- images: folder for screenshoots
+
+## References
+
+Bhargav, K. (2020, August 17). Blockchain for beginners. Medium. Retrieved from https://medium.com/@kacharlabhargav21/
+
+Truffle Suite. (n.d.). Ganache. Retrieved from https://trufflesuite.com/ganache/
+
+Web3.js documentation. (2021). Getting started. Retrieved from https://web3js.readthedocs.io/en/v1.10.0/getting-started.html
+
+Web3.py documentation. (n.d.). Quickstart. Retrieved from https://web3py.readthedocs.io/en/stable/quickstart.html
+
+Traversy Media. (2018, December 20). Ethereum & Smart Contracts for Beginners (2020) - Full Course. Retrieved from https://www.youtube.com/watch?v=t3wM5903ty0&list=PLS5SEs8ZftgXlCGXNfzKdq7nGBcIaVOdN
+
