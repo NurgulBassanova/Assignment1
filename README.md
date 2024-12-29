@@ -69,14 +69,6 @@ npm install
 node deploy.js
 ```
 
-### Smart Contract
-The smart contract used in this project supports the following functions:
-
-`checkBalance()`: Returns the current Ether balance of the contract.
-
-`withdraw()`: Transfers all Ether from the contract to the owner's address.
-
-`receive()`: Allows the contract to accept Ether directly.
 
 ## Deployment
 ![Описание изображения](images/web3.jpg)
@@ -93,5 +85,9 @@ A view of the deployment script opened in VS Code, showcasing the JavaScript log
 
 Shows the smart contract code in Remix IDE, where it was written, compiled, and tested for functionality.
 
+The smart contract used in this project supports the following functions:
 
+- `checkBalance()`: Returns the current Ether balance of the contract.
+- `withdraw()`: Transfers all Ether from the contract to the owner's address.
+- `receive()`: Allows the contract to accept Ether directly.
 
