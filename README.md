@@ -115,6 +115,7 @@ Displays the Ganache interface, showing the details of the contract creation and
 
 ## Deployment in Sepolia Network
 ![Описание изображения](images/sepoliatransact.png)
+
 When we are trying to execute smart contract with Sepolia network, we see this notification window.
 
 ## Conclusion
