@@ -1,10 +1,9 @@
-const {Web3} = require('web3');
+require('dotenv').config();
 
-// Connect to Ganache
-const web3 = new Web3('http://127.0.0.1:7545');
+const { ethers } = require("ethers");
 
-// Check if connected
-web3.eth.getAccounts().then(console.log);
+const provider = new ethers.providers.JsonRpcProvider(`https://sepolia.infura.io/v3/${process.env.INFURA_PROJECT_ID}`);
+
 
 // ABI from Remix
 const contractABI = [
@@ -12,6 +11,17 @@ const contractABI = [
 		"inputs": [],
 		"stateMutability": "nonpayable",
 		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "withdraw",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
 	},
 	{
 		"inputs": [],
@@ -38,33 +48,39 @@ const contractABI = [
 		],
 		"stateMutability": "view",
 		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "withdraw",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"stateMutability": "payable",
-		"type": "receive"
 	}
-]; 
-const contractAddress = '0x74A6D8449EC7992132Ff4264278d26a3366c1fCD'; // Contract address
+];
 
-const contract = new web3.eth.Contract(contractABI, contractAddress);
+const contractAddress = '0x5803eB61CC1e0BCc806b9A61a282Fe765C5B0ddf'; // Contract address
+
+// Connect to your wallet using a private key (ensure private key is stored securely)
+const privateKey = process.env.PRIVATE_KEY;
+
+const wallet = new ethers.Wallet(privateKey, provider);
+
+// Create a contract instance
+const contract = new ethers.Contract(contractAddress, contractABI, wallet);
 
 // Call checkBalance function
-contract.methods.checkBalance().call()
-    .then(balance => {
-        console.log("Contract Balance: ", balance);
-    });
+async function getBalance() {
+    try {
+        const balance = await contract.checkBalance();
+        console.log("Contract Balance:", balance.toString());
+    } catch (error) {
+        console.error("Error getting balance:", error);
+    }
+}
 
 // Call Withdraw function
-const account = '0x3540231008aEB9d28EE15403F6065E2Ec221f69D'; // Ganache account address
+async function withdraw() {
+    try {
+        const tx = await contract.withdraw();
+        console.log("Withdrawal Transaction Receipt:", tx);
+    } catch (error) {
+        console.error("Error with withdrawal:", error);
+    }
+}
 
-contract.methods.withdraw().send({ from: account })
-    .then(receipt => {
-        console.log("Withdrawal Transaction Receipt: ", receipt);
-    });
+// Call functions
+getBalance();
+withdraw();
