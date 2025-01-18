@@ -126,7 +126,7 @@ Here you can see the activity of Sepolia network, in which we are accepting Sepo
 
 ![Описание изображения](images/infura.jpg)
 
-![Описание изображения](images/privatekey.jpg)
+![Описание изображения](images/private-key.jpg)
 
 
 ## Conclusion
