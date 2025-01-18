@@ -118,6 +118,11 @@ Displays the Ganache interface, showing the details of the contract creation and
 
 When we are trying to execute smart contract with Sepolia network, we see this notification window.
 
+![Описание изображения](images/sepolia2.png)
+
+Here you can see the activity of Sepolia network, in which we are accepting SepoliaETH and withdrawing our funds. 
+
+
 ## Conclusion
 
 We created a smart contract that can receive Ether, let the owner withdraw Ether, and check the balance of the contract. This shows how smart contracts work on the Ethereum blockchain. 
