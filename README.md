@@ -128,6 +128,10 @@ Here is the output when we deploying with the Sepolia network. We use .env file 
 
 ![Описание изображения](images/infura.jpg)
 
+
+![Описание изображения](images/sepoliatransact.jpg)
+We checked the transaction by hash on https://sepolia.etherscan.io/ . And it succeded.
+
 ![Описание изображения](images/private_key.jpg)
 
 
