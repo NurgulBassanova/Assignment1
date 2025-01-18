@@ -126,10 +126,10 @@ Here you can see the activity of Sepolia network, in which we are accepting Sepo
 
 Here is the output when we deploying with the Sepolia network. We use .env file for better security and also hardhat tools to connect with network.
 
-![Описание изображения](images/infura.jpg)
+![Описание изображения](images/infura.png)
 
 
-![Описание изображения](images/sepoliatransact.jpg)
+![Описание изображения](images/sepoliatransact.png)
 We checked the transaction by hash on https://sepolia.etherscan.io/ . And it succeded.
 
 
