@@ -122,6 +122,12 @@ When we are trying to execute smart contract with Sepolia network, we see this n
 
 Here you can see the activity of Sepolia network, in which we are accepting SepoliaETH and withdrawing our funds. 
 
+![Описание изображения](images/deploy.jpg)
+
+![Описание изображения](images/infura.jpg)
+
+![Описание изображения](images/privatekey.jpg)
+
 
 ## Conclusion
 
