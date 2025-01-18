@@ -15,10 +15,11 @@
 2. [Prerequisites](#prerequisites)
 3. [Setup and installation](#setup-and-installation)
 4. [Deployment](#deployment)
-5. [Conclusion](#conclusion)
-6. [Files](#files)
-7. [License](#license)
-8. [References](#license)
+5. [Deployment in Sepolia network](#sepolia)
+6. [Conclusion](#conclusion)
+7. [Files](#files)
+8. [License](#license)
+9. [References](#license)
 
 
 
@@ -119,6 +120,10 @@ We set up the environment by installing the Web3.js library, which helps connect
 We also configured Ganache and Metamask to work together, making it easier to interact with the blockchain. The smart contract was successfully deployed on Ganache, a local test network, and its functions were tested by calling them from the environment we set up.
 
 ![Описание изображения](images/callandcreation.jpg)
+
+## Deployment in Sepolia Network
+![Описание изображения](images/sepoliatransact.jpg)
+
 
 
 ## Files
