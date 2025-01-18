@@ -123,7 +123,7 @@ We also configured Ganache and Metamask to work together, making it easier to in
 
 ## Deployment in Sepolia Network
 ![Описание изображения](images/sepoliatransact.jpg)
-
+When we are trying to execute smart contract with Sepolia network, we see this notification window.
 
 
 ## Files
