@@ -113,6 +113,10 @@ Captures the terminal output in VS Code after executing the deployment script, i
 
 Displays the Ganache interface, showing the details of the contract creation and any calls made to it.
 
+## Deployment in Sepolia Network
+![Описание изображения](images/sepoliatransact.png)
+When we are trying to execute smart contract with Sepolia network, we see this notification window.
+
 ## Conclusion
 
 We created a smart contract that can receive Ether, let the owner withdraw Ether, and check the balance of the contract. This shows how smart contracts work on the Ethereum blockchain. 
@@ -120,10 +124,6 @@ We set up the environment by installing the Web3.js library, which helps connect
 We also configured Ganache and Metamask to work together, making it easier to interact with the blockchain. The smart contract was successfully deployed on Ganache, a local test network, and its functions were tested by calling them from the environment we set up.
 
 ![Описание изображения](images/callandcreation.jpg)
-
-## Deployment in Sepolia Network
-![Описание изображения](images/sepoliatransact.jpg)
-When we are trying to execute smart contract with Sepolia network, we see this notification window.
 
 
 ## Files
